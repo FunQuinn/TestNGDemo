@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="测试集" verbose="1">
+
+    <test name="TestFGroups">
+        <classes>
+            <class name="com.TestGroupA.TestPackageA">
+                <methods>
+                    <!--<include name="MethodA"/>-->
+                    <!--<exclude name="afterSuite"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
